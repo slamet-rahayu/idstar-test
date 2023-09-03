@@ -1,0 +1,273 @@
+.footerblock img {
+  display: inline;
+}
+
+.footerblock .rightline {
+  font-family: "FlameSans";
+}
+
+.footerblock {
+  height: 125px;
+  width: 100%;
+  background-color: #2d2d2d;
+  color: #fff;
+  // z-index: 100;
+  position: relative;
+}
+
+.footerblock .footerwrapper {
+  max-width: 960px;
+  height: auto;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+
+.footerblock .information {
+  display: flex;
+}
+
+.footerblock .footerleft {
+  float: left;
+  width: 60%;
+}
+
+.footerblock .footerright {
+  width: 40%;
+}
+
+.footerblock .footerleft .title,
+.footerblock .footerleft .phone {
+  font-family: "Flame-Regular";
+}
+
+.footerblock .footerleft .title {
+  font-size: 20px;
+}
+
+.footerblock .footerleft .phone {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.footerblock .footerleft .phone a {
+  color: white;
+}
+
+.footerblock .footerleft .phone .emailfooter {
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: "Barlow-Medium";
+}
+
+.footerblock .footerleft .phone .emailfooter span {
+  position: relative;
+  top: -1px;
+}
+
+.footerblock .footerleft .phone .emailfooter img {
+  margin-right: 3px;
+}
+
+.footerblock .footerleft .phone img {
+  width: 16px;
+  margin-right: -3px;
+  position: relative;
+}
+
+.footerblock .footerleft .socialmedia {
+  margin-left: 30px;
+}
+
+.footerblock .footerleft .socialmedia img {
+  margin-right: 3px;
+}
+
+.footerblock .footerright {
+  padding-top: 12px;
+  text-align: right;
+}
+
+.footerblock .footerright img {
+  width: 17px;
+  vertical-align: sub;
+  margin-right: 3px;
+  top: 1px;
+  position: relative;
+}
+
+.footerblock .footerright .applestore,
+.footerblock .footerright .playstore {
+  border: 1px solid #919191;
+  width: 175px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #919191;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.footerblock .termsconditions {
+  color: #919191;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.footerblock .termsconditions a:hover {
+  color: white;
+}
+
+.footerblock .termsconditions span + span {
+  margin-left: 10px;
+}
+
+.footerblock .termsconditions .rightline {
+  border-right: 1px solid #8a8a8a;
+  padding-right: 12px;
+}
+
+.footerblock .rightline a {
+  color: #919191;
+}
+
+.footerblock .applestore .link,
+.footerblock .playstore .link {
+  font-family: "Barlow-Medium";
+  color: #ffffff;
+}
+
+.copyright {
+  font-family: "FlameSans";
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerblock {
+    display: table;
+    padding: 10px 0px;
+  }
+
+  .footerblock .footerleft .title {
+    font-size: 25px;
+  }
+
+  .footerblock .footerleft {
+    width: 100%;
+  }
+
+  .footerblock .footerright {
+    display: table;
+    width: 100%;
+    padding: 0px 35px;
+    box-sizing: border-box;
+  }
+
+  .footerblock .footerright img {
+    width: 25px;
+  }
+
+  .footerblock .footerright .applestore,
+  .footerblock .footerright .playstore {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 20px;
+    font-size: 18px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .footerblock .footerleft .socialmedia {
+    display: block;
+  }
+
+  .footerblock .footerleft .socialmedia img {
+    width: 35px;
+    margin-right: 18px;
+  }
+
+  .footerblock .footerleft .socialmedia img:last-child {
+    margin-right: 0px;
+  }
+
+  .footerblock .footerleft .phone {
+    font-size: 28px;
+    padding: 0px 0px 10px;
+  }
+
+  .footerblock .footerleft .phone img {
+    width: 24px;
+    position: relative;
+    top: 3px;
+  }
+
+  .footerblock .footerleft .phone .socialmedia {
+    margin: 10px auto;
+  }
+
+  .footerblock .termsconditions {
+    display: table;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .footerblock .termsconditions .rightline {
+    display: table;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 10px;
+    text-align: center;
+    border: none;
+  }
+
+  .footerblock .termsconditions a {
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .footerblock .termsconditions .copyright {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 80%;
+    margin: 20px auto 0px;
+    display: table;
+  }
+
+  .footerwrapper {
+    background-color: #2d2d2d;
+  }
+
+  .footerblock .information {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+
+  .termsconditions {
+    padding: 0px 15px;
+    text-align: center;
+  }
+
+  .footerblock .footerright .applestore,
+  .footerblock .footerright .playstore {
+    width: 160px;
+  }
+
+  .socialmedia a {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerleft .phone .emailfooter {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .footerleft .phone a.emailfooter > img {
+    width: 13px;
+  }
+}

@@ -1,0 +1,569 @@
+.textalignright {
+  text-align: right !important;
+}
+
+.textalignleft {
+  text-align: left !important;
+}
+
+.button {
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-simple {
+  background-color: #ffffff;
+  color: #ed7801;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.payment table td {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.payment table .description {
+  width: 70%;
+}
+
+.payment .description div.modifier {
+  font-size: 11px;
+  color: #919191;
+}
+
+.payment .quantity {
+  display: block;
+  margin: 0px 10px;
+}
+
+.payment .summary {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+  border-collapse: initial;
+}
+
+.payment .summary tr {
+  border-bottom: none;
+}
+
+.payment.orderdetails .summary {
+  border-top: none;
+  padding-top: 0px;
+}
+
+.payment .summary td {
+  font-size: 15px;
+  padding: 3px 0px;
+}
+
+.payment .grandtotal td {
+  font-size: 23px;
+  padding: 8px 0px;
+  font-family: "Flame-Regular";
+}
+
+.payment p {
+  font: 12px/18px "FlameSans";
+  margin: 0px;
+}
+
+.payment .info {
+  margin: 8px 0px;
+}
+
+.payment .amount {
+  margin: 30px 0px;
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.payment .grandtotal_wrapper,
+.payment .promotion_code {
+  width: 50%;
+  float: left;
+}
+
+.payment .grandtotal_wrapper .grandtotal {
+  font-family: "Flame-Bold";
+  text-align: right;
+}
+
+.payment .changepayment .grandtotal_wrapper .grandtotal {
+  text-align: left;
+}
+
+.payment .grandtotal.before {
+  text-decoration: line-through;
+  color: #b7b7b7;
+}
+
+.payment .promotion_code input {
+  font: 11px/15px "Barlow-Regular";
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 70%;
+  margin-right: 2%;
+  margin-bottom: 0px;
+}
+
+.payment .promotion_code #apply-promotion {
+  font: 14px/0px "Flame-Regular";
+  padding: 4px 10px;
+  margin-bottom: 12px;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #ed7801;
+  color: #ed7801;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment .promotion_code .promotiontitle {
+  font: 12px/18px "Barlow-Regular";
+  text-transform: none;
+  display: block;
+  width: 100%;
+}
+
+.payment .promocodeapplied {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 4px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment .promocodeapplied.hide {
+  display: none;
+}
+
+.payment .promocodeapplied img {
+  max-width: 16px;
+  margin-left: 5px;
+}
+
+.payment .promocodeapplied span {
+  display: table;
+  text-transform: capitalize;
+  font: 14px/22px "Barlow-Bold";
+  flex-grow: 1;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.payment .loadingpromo {
+  font-size: 15px;
+  position: absolute;
+  top: 2px;
+  right: 35px;
+  color: #919191;
+}
+
+.payment .loading_promo.hide {
+  display: none;
+}
+
+.payment .loadingpromo img {
+  max-width: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.payment .nopromocode {
+  position: relative;
+  margin-top: 3px;
+}
+
+.payment .removepromo {
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.payment .trashicon {
+  display: flex;
+  align-items: center;
+}
+
+.payment .errorlist {
+  padding: 0px;
+  list-style: none;
+  font: 11px/15px "Barlow-Regular";
+}
+
+.payment .cartcontent .borderright {
+  margin-right: 0px;
+  width: 50%;
+}
+
+.payment .cartcontent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment button {
+  margin-bottom: 20px;
+}
+
+.payment .choices {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment .method .choices {
+  margin-bottom: 0px;
+}
+
+.payment .method .amount {
+  margin: 15px 0px 0px 0px;
+}
+
+.payment .payment_block {
+  margin: 20px 0px 45px;
+}
+
+.payment .button.order {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.cartcontent .borderright {
+  border-right: 1px solid #e0e0e0;
+}
+
+.cartcontent {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: table;
+  width: 100%;
+  background: white;
+}
+
+.cartcontent .left,
+.cartcontent .right,
+.cartcontent .twocolumn {
+  padding: 25px 30px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  font: 15px/22px "Flame-Regular";
+  text-transform: capitalize;
+  text-align: left;
+  padding-bottom: 8px;
+  min-width: 100px;
+}
+
+.table tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table tr:last-child {
+  border-bottom: none;
+}
+
+.table td {
+  font: 14px/20px "FlameSans";
+  vertical-align: top;
+  padding: 12px 0px;
+  position: relative;
+}
+
+.table input {
+  font: 15px/20px "FlameSans";
+  max-width: 70px;
+  padding: 3px 12px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.table .note {
+  font: 11px/15px "Barlow-Regular";
+  color: #919191;
+  display: block;
+}
+
+.table .description {
+  max-width: 240px;
+}
+
+.table .description div.modifier:nth-of-type(1) {
+  margin-top: 4px;
+}
+
+.table .description div.modifier {
+  font-size: 12px;
+  color: #919191;
+}
+
+.table .edit {
+  margin: 0 auto;
+  display: table;
+}
+
+.table .center {
+  text-align: center;
+}
+
+.table .edit {
+  max-width: 16px;
+  padding: 2px 10px 0px;
+}
+
+.table .minus,
+.table .plus {
+  font: 23px/22px "Barlow-Regular";
+  position: absolute;
+  color: #ed7801;
+  width: 30px;
+  height: 26px;
+  padding: 0px;
+  text-align: center;
+  top: 1px;
+}
+
+.table .minus {
+  left: 0px;
+}
+
+.table .plus {
+  right: 0px;
+}
+
+.table .quantity {
+  position: relative;
+}
+
+.table img {
+  max-width: 50px;
+}
+
+.table .item-quantity:disabled {
+  background: white;
+  -webkit-text-fill-color: #404040;
+  opacity: 1;
+}
+
+.table .discounted {
+  color: #d72300;
+}
+
+.table .original {
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #9f816f;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+
+.table-floating .more-items {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.cartcontent h2 {
+  font: 13px/22px "FlameSans";
+  margin: 0px;
+  padding: 0px;
+}
+
+.payment .promotion_code .applypromotion {
+  font: 14px/0px "Flame-Regular";
+  padding: 4px 10px;
+  margin-bottom: 12px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #ed7801;
+  color: #ed7801;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment .promotion_code .promotiontitle {
+  font: 12px/18px "Barlow-Regular";
+  text-transform: none;
+  display: block;
+  width: 100%;
+}
+
+.cartcontent .grandtotal {
+  font: 28px/32px "Flame-Regular";
+}
+
+.choices {
+  margin-bottom: 35px;
+  display: table;
+  width: 100%;
+}
+
+.choices input[type="radio"],
+.choices input[type="checkbox"],
+.choices sup,
+.choices .tickorange,
+.choices .tickgreen {
+  display: none;
+}
+
+.choices .tickorange,
+.choices .tickgray,
+.choices .tickgreen {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: auto;
+}
+
+.choices .list,
+.choices .listdouble {
+  font: 14px/22px "Flame-Regular";
+  border-radius: 3px;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  width: 31.3333%;
+  box-sizing: border-box;
+  float: left;
+  display: table;
+}
+
+.choices .list:nth-child(3n),
+.choices .list-double:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.choices .listdouble {
+  width: 48.5%;
+}
+
+.choices .listdouble:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.choices .listdouble label.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+}
+
+.choices .listdouble h2 {
+  font-size: 12.5px;
+}
+
+.choices .paymentlogo {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choices .ovopaymentlogo {
+  width: auto;
+  height: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choices .choice {
+  height: 100%;
+  width: 100%;
+  display: table;
+  padding: 6px 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  user-select: none;
+}
+
+.choices sup {
+  font: 11px/18px "Barlow-Medium";
+  color: white;
+  text-align: center;
+  width: 18px;
+  height: 18px;
+  background-color: #4c8900;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 99;
+  border-radius: 50%;
+}
+
+.choices .tickorange,
+.choices .tickgray {
+  max-width: 18px;
+}
+
+.choices input[type="radio"]:checked + .choice,
+.choices input[type="checkbox"]:checked + .choice {
+  border: 1px solid #ed7801;
+  border-radius: 3px;
+}
+
+.choices input[type="radio"]:checked + .choice sup,
+.choices input[type="radio"]:checked + .choice .tickorange,
+.choices input[type="radio"]:checked + .choice .tickgreen,
+.choices input[type="checkbox"]:checked + .choice sup,
+.choices input[type="checkbox"]:checked + .choice .tickorange,
+.choices input[type="checkbox"]:checked + .choice .tickgreen {
+  display: block;
+}
+
+.choices input[type="radio"]:checked + .choice .tickgray,
+.choices input[type="checkbox"]:checked + .choice .tickgray {
+  display: none;
+}

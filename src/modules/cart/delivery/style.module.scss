@@ -1,0 +1,167 @@
+.cartcontent {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: table;
+  width: 100%;
+  background: white;
+}
+
+.delivery h1 {
+  font: 23px/28px "Flame-Regular";
+  margin: 0px 0px 20px;
+  text-transform: capitalize;
+  color: #8b542f;
+}
+
+.delivery h2 {
+  font: 16px/22px "FlameSans";
+  margin-bottom: 0px;
+}
+
+.delivery .left h2 {
+  margin-bottom: 10px;
+}
+
+.delivery p.note {
+  font: 14px/22px "FlameSans";
+  margin: 0px 0px 18px;
+}
+
+.delivery .phone {
+  position: relative;
+}
+
+.delivery .phone input {
+  padding-left: 45px;
+}
+
+.delivery .phone .code {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+
+.delivery .cartcontent .left,
+.delivery .cartcontentauthentication .left {
+  width: 40%;
+  border: none;
+}
+
+.delivery .cartcontent .right {
+  width: 60%;
+  border-left: 1px solid #e0e0e0;
+}
+
+.delivery .cartcontentauthentication .left {
+  width: 40%;
+}
+
+.delivery .cartcontentauthentication .right {
+  width: 60%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.delivery .district,
+.delivery .postal_code {
+  float: left;
+}
+
+.delivery .district {
+  width: 73%;
+  margin-right: 2%;
+}
+
+.delivery .postal_code {
+  width: 25%;
+}
+
+.delivery .mapwrapper {
+  width: 100%;
+  position: relative;
+}
+
+.delivery .map {
+  width: 100%;
+  background-color: #8b542f;
+  min-height: 300px;
+  margin: 10px 0px 25px;
+}
+
+.delivery .marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.delivery input[type="text"].searchaddress {
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 12px 0 0 12px;
+  padding: 18px 10px;
+  height: 23px;
+  text-overflow: ellipsis;
+  width: 400px;
+  margin-bottom: 20px;
+  position: absolute;
+  z-index: 10;
+}
+
+.delivery input[type="text"].searchaddress:focus {
+  border-color: #4d90fe;
+}
+
+.delivery input[type="text"].searchaddress::placeholder {
+  color: #444444;
+}
+
+.cartcontent .left,
+.cartcontent .right,
+.cartcontent .twocolumn {
+  padding: 25px 30px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.button {
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.buttonsimple {
+  background-color: #ffffff;
+  color: #ed7801;
+}
+
+.textwhite {
+  color: #fff;
+}
+
+.whitebackground {
+  background-color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}

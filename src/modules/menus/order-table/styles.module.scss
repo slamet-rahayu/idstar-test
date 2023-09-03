@@ -1,0 +1,846 @@
+.columns {
+  display: block;
+}
+
+.productwrapper {
+  background: #fff;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.productwrapper .imagewrapper {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.productwrapper .imagewrapper img {
+  max-width: 350px;
+  object-fit: cover;
+}
+
+.productwrapper .information {
+  color: #919191;
+  font-family: "Barlow-Regular";
+  font-size: 14px;
+  text-align: center;
+}
+
+.productwrapper .information h4 {
+  margin: 0;
+}
+
+.productwrapper .information .title {
+  font-size: 20px;
+  font-family: "Barlow-Medium";
+  margin-bottom: 5px;
+}
+
+.productdetailscontent h1 {
+  font: 30px/35px "Flame-Regular";
+  text-transform: capitalize;
+  text-align: center;
+  color: #502314;
+  margin: 0px 10px;
+}
+
+.productdetailscontent h2 {
+  font: 21px/28px "Flame-Regular";
+  color: #8b542f;
+  margin-bottom: 10px;
+}
+
+.productdetailscontent h3 {
+  font: 13px/22px "Barlow-Medium";
+  margin: 0px;
+  padding: 0px;
+}
+
+.productdetailscontent .info {
+  font: 11px/18px "Barlow-Regular";
+  text-align: left;
+  margin: 10px 0px 20px;
+  border-collapse: collapse;
+}
+
+.productdetailscontent .info th,
+.productdetailscontent .info td {
+  padding: 0px;
+  margin: 0px;
+}
+
+.productdetailscontent .info th {
+  color: #8b542f;
+  vertical-align: top;
+  min-width: 50px;
+  font-weight: normal;
+}
+
+.productdetailscontent .borderright {
+  border-right: 1px solid #e0e0e0;
+}
+
+.productdetailscontent p {
+  font: 13px/20px "Barlow-Regular";
+}
+
+.productdetailscontent .grandtotal {
+  font: 28px/32px "Flame-Regular";
+}
+
+.productdetailscontent .grandtotal .discounted {
+  color: #d72300;
+}
+
+.productdetailscontent .grandtotal .original {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #9f816f;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+
+.productdetailscontent .imagewrapper img {
+  max-width: 290px;
+}
+
+.productdetailscontent .actionwrapper {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  text-align: center;
+}
+
+.productdetailscontent .actionwrapper .inputqty {
+  max-width: 110px;
+  font-size: 17px;
+  color: black;
+}
+
+.productdetailscontent .button {
+  width: 100%;
+  margin-top: 25px;
+  font: 16px/22px "Flame-Regular";
+}
+
+.productdetailscontent .left,
+.productdetailscontent .right {
+  padding: 35px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.productdetailscontent .left {
+  width: 63%;
+}
+
+.productdetailscontent .right {
+  width: 37%;
+}
+
+.productdetailscontent .productdescription {
+  font: 14px/20px "FlameSans";
+  text-align: center;
+  width: 85%;
+  margin: 10px auto 20px;
+}
+
+.productdetailscontent .selected {
+  vertical-align: middle;
+  padding: 0px 5px 0px 10px;
+}
+
+.productdetailscontent .selected img {
+  max-width: 21px;
+}
+
+.productdetailscontent .amountmobile {
+  display: none;
+}
+
+.productdetailscontent .choices label {
+  border-radius: 7px;
+}
+
+.productdetailscontent .choices img {
+  width: auto;
+  max-height: 42px;
+}
+
+.productdetailscontent .choices label span {
+  font: 13px/15px "FlameSans";
+  display: block;
+}
+
+.productdetailscontent .choices input[type="radio"]:checked + .choice,
+.productdetailscontent .choices input[type="checkbox"]:checked + .choice {
+  border: 1px solid #ed7801;
+  border-radius: 7px;
+}
+
+.productdetailscontent .choices input[type="radio"]:checked + .choice sup,
+.productdetailscontent .choices input[type="checkbox"]:checked + .choice sup {
+  background-color: #ed7801;
+}
+
+.productdetailscontent .choices.drinks {
+  margin-bottom: 0px;
+}
+
+.productdetailscontent .choices.drinks span {
+  line-height: 6px;
+  margin-bottom: 7px;
+}
+
+.productdetailscontent .choices.drinks img {
+  width: auto;
+  vertical-align: middle;
+  max-height: 52px;
+}
+
+.productdetailscontent .choices.drinks .list,
+.productdetailscontent .choices.drinks .listdouble {
+  margin-right: 2%;
+  margin-bottom: 8px;
+  width: 32%;
+}
+
+.productdetailscontent .choices.drinks .list:nth-child(3n),
+.productdetailscontent .choices.drinks .listdouble:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.productdetailscontent .imagewrapper {
+  float: left;
+  box-sizing: border-box;
+  max-width: 65%;
+  margin-right: 2%;
+}
+
+.productdetailscontent .mealselection sup {
+  background-color: #e0e0e0;
+  display: block;
+}
+
+.actionwrapper {
+  padding: 10px 40px;
+  position: relative;
+}
+
+.actionwrapper .noteswrapper input[type="text"] {
+  background: url("/static/website/img/note-edit1x.png?4557464df5fe") no-repeat
+    right;
+  background-position: 280px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 2px 40px 4px 20px;
+  width: 100%;
+}
+
+.actionwrapper .quantitywrapper {
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+}
+
+.actionwrapper .quantitywrapper .inputqty {
+  border: none;
+  box-sizing: initial;
+  color: #919191;
+  font-size: 16px;
+  font-family: "Flame-Regular";
+  height: 25px;
+  margin-bottom: 0px;
+  padding: 3px 8px;
+  text-align: center;
+  min-width: 20px;
+  max-width: 55px;
+}
+
+.actionwrapper .quantitywrapper span:first-child {
+  margin-top: 3px;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.actionwrapper .quantitywrapper span:last-child {
+  color: #919191;
+  float: right;
+  font-size: 22px;
+  margin-top: 2px;
+}
+
+.actionwrapper .quantitywrapper input {
+  background: transparent;
+}
+
+.actionwrapper .buttonadd img,
+.actionwrapper .buttonmin img {
+  width: initial;
+}
+
+.actionwrapper .buttonadd,
+.actionwrapper .buttonmin {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 27px;
+  outline: none;
+  width: 35px;
+  padding: 0;
+}
+
+.actionwrapper .buttonadd {
+  margin-left: -5px;
+}
+
+.actionwrapper .buttonmin {
+  margin-right: -5px;
+}
+
+.actionwrapper .categoriesbox {
+  padding: 10px;
+}
+
+.button {
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  font: 15px/22px "Flame-Regular";
+  text-transform: capitalize;
+  text-align: left;
+  padding-bottom: 8px;
+  min-width: 100px;
+}
+
+.table tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table tr:last-child {
+  border-bottom: none;
+}
+
+.table td {
+  font: 14px/20px "FlameSans";
+  vertical-align: top;
+  padding: 12px 0px;
+  position: relative;
+}
+
+.table input {
+  font: 15px/20px "FlameSans";
+  max-width: 70px;
+  padding: 3px 12px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.table .note {
+  font: 11px/15px "Barlow-Regular";
+  color: #919191;
+  display: block;
+}
+
+.table .description {
+  max-width: 240px;
+}
+
+.table .description div.modifier:nth-of-type(1) {
+  margin-top: 4px;
+}
+
+.table .description div.modifier {
+  font-size: 12px;
+  color: #919191;
+}
+
+.table .edit {
+  margin: 0 auto;
+  display: table;
+}
+
+.table .center {
+  text-align: center;
+}
+
+.table .edit {
+  max-width: 16px;
+  padding: 2px 10px 0px;
+}
+
+.table .minus,
+.table .plus {
+  font: 23px/22px "Barlow-Regular";
+  position: absolute;
+  color: #ed7801;
+  width: 30px;
+  height: 26px;
+  padding: 0px;
+  text-align: center;
+  top: 1px;
+}
+
+.table .minus {
+  left: 0px;
+}
+
+.table .plus {
+  right: 0px;
+}
+
+.table .quantity {
+  position: relative;
+  display: table;
+}
+
+.table img {
+  max-width: 50px;
+}
+
+.table .itemquantity:disabled {
+  background: white;
+  -webkit-text-fill-color: #404040;
+  opacity: 1;
+}
+
+.table .discounted {
+  color: #d72300;
+}
+
+.table .original {
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #9f816f;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+
+.tablefloating .moreitems {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.extras {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-collapse: initial;
+}
+
+.extras tr {
+  border-bottom: none;
+}
+
+.extras td {
+  font: 11px/18px "FlameSans";
+  color: #b7b7b7;
+  padding: 7px 0px;
+  vertical-align: middle;
+}
+
+.extras strong {
+  font: 16px/22px "Flame-Bold";
+  color: #404040;
+}
+
+.extras span {
+  font: 12px/18px "FlameSans";
+  color: #404040;
+}
+
+.extras .circle {
+  border-radius: 50%;
+  padding: 5px;
+  float: right;
+  margin-right: 20px;
+  width: 22px;
+  height: 22px;
+  display: table;
+  text-align: center;
+  background-color: #ed7801;
+  border-collapse: collapse;
+}
+
+.extras .circle img {
+  width: 12px;
+  position: relative;
+  margin: auto;
+}
+
+.extras .middle {
+  vertical-align: middle;
+  min-width: 100px;
+}
+
+.extras .plus-min input {
+  border: none;
+}
+
+.extras .image {
+  vertical-align: middle;
+}
+
+.extras .desc {
+  width: 40%;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.menus .mealwrapper {
+  position: relative;
+}
+
+.menus .mealwrapper .mealselection {
+  float: left;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.menus .mealwrapper .mealselection .choice {
+  padding: 11px 5px;
+}
+
+.menus .mealwrapper .mealselection .list,
+.menus .mealwrapper .mealselection .choices .listdouble,
+.choices .menus .mealwrapper .mealselection .listdouble {
+  width: 100%;
+  max-width: 116px;
+}
+
+.menus .mealwrapper .mealselection .mealselectionicon {
+  max-width: 48px;
+  margin: 0px;
+}
+
+.menus .mealwrapper .drinkwrapper {
+  float: left;
+  width: 100%;
+}
+
+.plusmin {
+  float: right;
+  margin-right: 20px;
+}
+
+.plusmin a {
+  position: relative;
+  display: table;
+  top: 6px;
+  float: left;
+}
+
+.plusmin img {
+  max-width: 12px;
+}
+
+.plusmin input {
+  margin: 0px;
+  max-width: 40px;
+  float: left;
+  color: #404040;
+  box-shadow: none;
+  position: relative;
+  z-index: 500;
+}
+
+input.modifierquantity:disabled {
+  background-color: #fff
+}
+
+.extras .plusmin input {
+  border: none
+}
+
+.msg {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  position: absolute;
+  top: 80px;
+  width: 47%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .menus .itemcategories {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .menus .itemcategories .search {
+    margin-bottom: 0px;
+    height: auto;
+  }
+
+  .menus .itemcategories .awesomplete {
+    display: none;
+  }
+
+  .menus .itemcategories form {
+    margin-right: 2%;
+    width: 14%;
+    display: table;
+    float: left;
+  }
+
+  .menus .itemcategories .categoriesmobilebutton {
+    width: 84%;
+    display: table;
+    float: left;
+    margin: 0px;
+  }
+
+  .menus .itemcategories .searchbutton {
+    display: none;
+  }
+
+  .menus .itemcategories .mobilesearchbutton {
+    display: block;
+    position: relative;
+    border-radius: 9px;
+    width: auto;
+  }
+
+  .menus .itemcategories .iconmglass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menus .itemcategories input {
+    display: none;
+  }
+
+  .menus .mealwrapper .drinkwrapper,
+  .menus .mealwrapper .mealselection {
+    width: 100%;
+  }
+
+  .menus .mealwrapper .drinkwrapper .list,
+  .menus .mealwrapper .drinkwrapper .choices .listdouble,
+  .choices .menus .mealwrapper .drinkwrapper .listdouble,
+  .menus .mealwrapper .mealselection .list,
+  .menus .mealwrapper .mealselection .choices .listdouble,
+  .choices .menus .mealwrapper .mealselection .listdouble {
+    width: 48%;
+    max-width: initial;
+  }
+
+  .menus .mealwrapper .choices {
+    margin-bottom: 10px;
+  }
+
+  .menus .productdetailscontent {
+    width: 100%;
+  }
+
+  .menus .productdetailscontent h1 {
+    font-size: 28px;
+  }
+
+  .menus .productdetailscontent .left,
+  .menus .productdetailscontent .right {
+    width: 100%;
+  }
+
+  .menus .productdetailscontent .subtotal {
+    display: none;
+  }
+
+  .menus .productdetailscontent .subtotalwrapper {
+    padding: 15px;
+    z-index: 499;
+  }
+
+  .menus .productdetailscontent .info {
+    display: none;
+  }
+
+  .menus .product-details-content .subtotal-wrapper {
+    padding: 15px;
+    z-index: 499;
+  }
+
+  .menus .product-details-content .info {
+    display: none;
+  }
+
+  .choices .choice {
+    font-size: 12px;
+  }
+
+  .choices .list,
+  .choices .list-double {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .choices .list:nth-child(2n),
+  .choices .list-double:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .meal-selection .choices {
+    margin-bottom: 10px;
+  }
+
+  .mealselection .choices strong {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  .mealselection .choices label,
+  .mealselection .choices.upsize label {
+    padding: 12px 15px;
+    box-sizing: border-box;
+  }
+
+  .mealselection .choices label span {
+    font-size: 11px;
+  }
+
+  .mealselection .choices .list,
+  .mealselection .choices .listdouble,
+  .mealselection .choices .packagedversiononly {
+    margin-bottom: 10px;
+    width: 48%;
+    float: left;
+  }
+
+  .mealselection .choices .list,
+  .mealselection .choices .listdouble {
+    margin-right: 4%;
+  }
+
+  .productdetailscontent .imagewrapper,
+  .productdetailscontent .mealselection {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+  }
+
+  .productdetailscontent .right {
+    padding: 0px;
+  }
+
+  .productdetailscontent .choices.drinks .list,
+  .productdetailscontent .choices.drinks .list-double,
+  .productdetailscontent .choices.drinks .list:nth-child(3n) {
+    margin-right: 4%;
+    margin-bottom: 4%;
+  }
+
+  .productdetailscontent .choices.drinks .list:nth-child(2n),
+  .productdetailscontent .choices.drinks .listdouble:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .subtotalwrapper {
+    position: fixed;
+    z-index: 100;
+    left: 0px;
+    bottom: 0px;
+    background: white;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .subtotalwrapper .button {
+    color: transparent;
+    word-spacing: -999px;
+    letter-spacing: -999px;
+  }
+
+  .subtotalwrapper .button:before {
+    content: "Add to cart";
+    visibility: visible;
+    color: white;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  .subtotalwrapper .amountmobile {
+    display: block;
+  }
+
+  .subtotalwrapper .amountmobile,
+  .subtotalwrapper .actionwrapper {
+    float: left;
+    width: auto;
+    margin: 0px;
+  }
+
+  .subtotalwrapper .buttonorange {
+    text-align: center;
+    padding: 5px 10px;
+    float: left;
+    width: auto;
+    margin: 0px;
+    font-size: 12px;
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .subtotalwrapper .grandtotal {
+    font-size: 17px;
+    font-weight: normal;
+  }
+
+  .subtotalwrapper .clear {
+    display: none;
+  }
+
+  .subtotalwrapper .actionwrapper {
+    margin: 0px;
+    float: right;
+  }
+
+  .subtotalwrapper .quantitywrapper {
+    float: left;
+    margin-top: 1px;
+  }
+
+  .subtotalwrapper .actionwrapper .inputqty {
+    max-width: 20px;
+    padding: 3px 0px;
+  }
+
+  .productwrapper {
+    display: table;
+  }
+}

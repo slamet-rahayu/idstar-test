@@ -1,0 +1,90 @@
+.promotion .contentblock {
+  background-image: url("https://bkdelivery.co.id/static/website/img/BK_bg.jpg?5218847fa211");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat
+}
+
+.contentwrapper {
+  width: 960px;
+  margin: 0 auto
+}
+
+.promotion .promotionimagewrapper {
+  margin-bottom: 30px
+}
+
+.promotiondetails .contentblock {
+  height: auto;
+  background-color: #fff
+}
+
+.promotiondetails .contentwrapper {
+  padding-top: 25px
+}
+
+.promotiondetails h1 {
+  display: block;
+  font: 26px/30px "Flame-Regular";
+  color: #8b542f;
+  margin-bottom: 0
+}
+
+.promotiondetails h3 {
+  color: #8b542f;
+  font-size: 18px;
+  font-family: "Barlow-Regular";
+  margin-top: 10px
+}
+
+.promotiondetails .backgroundleft span {
+  display: inherit;
+  margin-top: 20px;
+  line-height: 22px
+}
+
+.promotiondetails .backgroundleft span:last-child {
+  margin-top: 30px;
+  font-size: 12px
+}
+
+.promotiondetails .backgroundright {
+  padding-top: 22px
+}
+
+.promotiondetails .iteminformation {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px
+}
+
+.promotiondetails .iteminformation img {
+  width: initial
+}
+
+.promotiondetails .itemleft {
+  width: 69%;
+  margin-right: 1%
+}
+
+.promotiondetails .itemleft span {
+  font-size: 26px;
+  font-family: "Flame-Regular";
+  color: #8b542f
+}
+
+.promotiondetails .itemright {
+  width: 30%;
+  text-align: right;
+  padding: 7px 0
+}
+
+.promotiondetails .itemright a {
+  color: #ed7801;
+  font: 16px/22px "Barlow-Bold"
+}
+
+.promotiondetails .itemright img {
+  position: relative;
+  top: 2px
+}

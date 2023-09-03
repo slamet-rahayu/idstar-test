@@ -1,0 +1,626 @@
+.active {
+  overflow: hidden;
+}
+
+.button {
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.button:focus {
+  outline: none
+}
+
+.buttonsimple {
+  background-color: #ffffff;
+  color: #ed7801
+}
+
+.cartlist .buttonordernow {
+  margin-top: 23px
+}
+
+.cartwrapper {
+  padding: 10px 40px 30px 40px
+}
+
+.carterror {
+  color: #000;
+  margin: 10px 0 0 0
+}
+
+.headerblock {
+  background-color: #2d2d2d;
+  width: 100%;
+  height: 76px;
+  z-index: 1000;
+  position: relative;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5)
+}
+
+.headerblock .headerwrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+  display: table;
+  width: 100%
+}
+
+.headerblock .headerbackground {
+  background-color: #2d2d2d
+}
+
+.headerblock .logo {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 35px;
+  width: 90px;
+  height: 90px;
+  z-index: 1000;
+  left: -125px
+}
+
+.headerblock .leftnavigation {
+  float: left
+}
+
+.headerblock .leftnavigation .grouptitle {
+  display: inline-block;
+  font-family: "Flame-Bold";
+  line-height: 1;
+  padding: 19px 40px 19px 0px
+}
+
+.headerblock .grouptitle span {
+  font-size: 25px;
+  color: #fff
+}
+
+.headerblock .grouptitle .title {
+  position: relative;
+  top: 3px
+}
+
+.headerblock .grouptitle span:first-child {
+  display: block;
+  font-size: 13px;
+  color: #faaf18;
+  font-family: "Flame-Regular"
+}
+
+.headerblock .rightnavigation {
+  float: right;
+  color: #fff;
+  margin-right: 0px
+}
+
+.headerblock .rightnavigation .group {
+  display: inline-block;
+  float: right;
+  padding: 23px 11px 15px
+}
+
+.headerblock .rightnavigationgroup {
+  display: inline-block;
+  font-family: "Flame-Regular";
+  line-height: 1;
+  padding: 5px 5px
+}
+
+.headerblock .mypoints {
+  top: 4px;
+  display: inline-block;
+  position: relative;
+  text-align: center
+}
+
+.headerblock .mypoints h6 {
+  margin: 1px 0 -2px;
+  font: 14px/14px "FlameSans"
+}
+
+.headerblock .maxcrowns {
+  font: 14px/14px "Flame-Regular"
+}
+
+.headerblock .crownimg {
+  max-width: 15px;
+  float: none;
+  margin-right: -1px;
+  margin-left: -3px;
+  position: relative;
+  bottom: -1px
+}
+
+.headerblock .crowns {
+  font: 17px/17px "Flame-Regular";
+  position: relative;
+  bottom: -1px
+}
+
+.headerblock .qrnavbar {
+  width: 28px;
+  align-items: center;
+  cursor: pointer
+}
+
+.headerblock .qrnavbar button {
+  border: none;
+  background: none
+}
+
+.headerblock .qrnavbar .qrbuttondesktop {
+  float: right;
+  position: relative;
+  margin-top: 7px;
+  cursor: pointer;
+  width: 100%;
+  padding: 0
+}
+
+.headerblock .qrnavbar img {
+  max-width: 28px
+}
+
+.headerblock .grouplogin .login {
+  top: 10px
+}
+
+.headerblock .login {
+  font-family: "Flame-Regular";
+  font-size: 20px;
+  max-height: 34px;
+  display: inline-block;
+  position: relative;
+  float: right
+}
+
+.headerblock .login img {
+  position: relative;
+  top: -2px;
+  max-width: 24px;
+  float: left;
+  margin-right: 8px
+}
+
+.headerblock .login .profile-img {
+  float: right;
+  max-width: 35px;
+  display: inline-block
+}
+
+.headerblock .login .title {
+  font-size: 17px;
+  line-height: 18px;
+  margin-top: -3px;
+  position: relative;
+  float: left
+}
+
+.headerblock .login .title .badge {
+  max-width: 20px;
+  position: absolute;
+  top: -6px;
+  right: 0px;
+  margin: 0px
+}
+
+.headerblock .login .title,.headerblock .login .status {
+  display: table
+}
+
+.headerblock .login .status {
+  font: 11px/15px "Barlow-Medium";
+  float: none
+}
+
+.headerblock .login a,.header-block .login:active {
+  color: #fff
+}
+
+.headerblock .mobilelogin {
+  font: 18px/18px "Flame-Regular";
+  padding: 15px 20px;
+  max-height: 34px;
+  float: left;
+  display: grid;
+  color: white
+}
+
+.headerblock .mobilelogin a,.headerblock .mobilelogin .login:active {
+  color: #fff
+}
+
+.cart {
+  height: auto;
+  padding: 24px 16px 24px 13px;
+  background-color: #ed7801;
+  float: left;
+  right: -80px;
+  position: absolute
+}
+
+.cart .hide {
+  display: none
+}
+
+.cartlist {
+  display: none;
+  z-index: 1000;
+  background: white;
+  position: absolute;
+  top: 70px;
+  right: -80px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+  width: 430px
+}
+
+.cartlist table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 288px;
+  width: 100%
+}
+
+.cartlist td {
+  color: #404040;
+  font: 13px/18px "Barlow-Regular";
+  vertical-align: top;
+  padding: 12px 8px;
+  border-bottom: 1px solid #e0e0e0
+}
+
+.cartlist .itemsubtotal.discounted {
+  color: #D72300
+}
+
+.cartlist .itemsubtotal.original {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #9F816F;
+  margin-left: 5px;
+  margin-bottom: 6px
+}
+
+.cartlist .subtotal span {
+  font-size: 16px;
+  line-height: 21px
+}
+
+.cartlist .total {
+  font: 23px/22px "Barlow-Regular"
+}
+
+.cartlist .subtotal {
+  padding: 12px 8px;
+  color: #404040;
+  display: table;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.cartlist .text {
+  float: left
+}
+
+.cartlist .total {
+  float: right
+}
+
+.cartlist .cartlistdescription {
+  max-width: 165px;
+  padding-left: 0
+}
+
+.cartlist .cartlistimage {
+  width: 50px
+}
+
+.cartlist .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  right: 14px;
+  top: -12px
+}
+
+.cartlist .button {
+  background: #ed7801;
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+  text-align: center
+}
+
+.cartlist .buttonordernow {
+  margin-top: 23px
+}
+
+.cartcontentdata {
+  max-height: 425px;
+  overflow-y: auto
+}
+
+.cardcontentdatawrapper {
+  padding: 15px 20px 25px 20px
+}
+
+.cartblock:hover .cartlist {
+  display: block
+}
+
+.cart img {
+  width: 30px
+}
+
+.headerwrapper .mobile {
+  display: none
+}
+
+.headerwrapper .mobile .logo_mobile {
+  margin: 0 auto;
+  display: table;
+  height: 50px
+}
+
+.headerwrapper .mobile .logo_mobile a {
+  display: table
+}
+
+.headerwrapper .mobile .logo_mobile img {
+  width: 100%;
+  max-width: 40px;
+  position: relative;
+  top: 5px;
+  z-index: 1000
+}
+
+.headerwrapper .mobile .cart {
+  z-index: 1000
+}
+
+.overlay,.menus.active .overlay-category {
+  position: fixed;
+  background: #2d2d2d;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s,visibility .35s,height .35s;
+  overflow: hidden
+}
+
+.overlay.open,.menus.active .overlay-category.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  z-index: 1000
+}
+
+.overlay span,.menus.active .overlay-category span {
+  font: 15px/22px "Flame-Regular";
+  color: #faaf18;
+  display: block
+}
+
+.overlay nav,.menus.active .overlay-category nav {
+  position: relative;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  overflow-y: scroll;
+  margin-top: 50px
+}
+
+.overlay ul,.menus.active .overlay-category ul {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  top: calc(20% - 50px);
+  box-sizing: border-box
+}
+
+.overlay ul li,.menus.active .overlay-category ul li {
+  display: block;
+  position: relative
+}
+
+.overlay ul a,.menus.active .overlay-category ul a {
+  font: 32px/36px "Flame-Regular";
+  padding: 8px 0px 20px;
+  min-height: 20px;
+  display: block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  overflow: hidden
+}
+
+.overlay ul .small a,.menus.active .overlay-category ul .small a {
+  font-size: 25px
+}
+
+.overlay hr,.menus.active .overlay-category hr {
+  border: none;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #b7b7b7
+}
+
+.overlay ul {
+  top: calc(10% - 50px)
+}
+
+.button_container {
+  z-index: 99999;
+}
+
+.cartlist table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 288px;
+  width: 100%
+}
+
+.cartlist td {
+  color: #404040;
+  font: 13px/18px "Barlow-Regular";
+  vertical-align: top;
+  padding: 12px 8px;
+  border-bottom: 1px solid #e0e0e0
+}
+
+.cartlist .itemsubtotal.discounted {
+  color: #D72300
+}
+
+.cartlist .itemsubtotal.original {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #9F816F;
+  margin-left: 5px;
+  margin-bottom: 6px
+}
+
+.cartlist .subtotal span {
+  font-size: 16px;
+  line-height: 21px
+}
+
+.cartlist .total {
+  font: 23px/22px "Barlow-Regular"
+}
+
+.cartlist .subtotal {
+  padding: 12px 8px;
+  color: #404040;
+  display: table;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.cartlist .text {
+  float: left
+}
+
+.cartlist .total {
+  float: right
+}
+
+.cartlist .cartlistdescription {
+  max-width: 165px;
+  padding-left: 0
+}
+
+.cartlist .cartlist-image {
+  width: 50px
+}
+
+.cartlist .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  right: 14px;
+  top: -12px
+}
+
+.cartlist .button {
+  background: #ed7801;
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+  text-align: center
+}
+
+.cartlist .buttonorder-now {
+  margin-top: 23px
+}
+
+@media screen and (max-width: 900px) {
+  .headerblock .login {
+      display: none
+  }
+
+  .menus .textcategories {
+      padding: 5px 12px 7px
+  }
+
+  .menus .textcategories h3 {
+      font-size: 15px;
+      line-height: 18px
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .headerblock {
+      height: 50px
+  }
+
+  .headerblock .headerwrapper {
+      max-width: 100%;
+      display: table;
+      width: 100%;
+      font-size: 0px
+  }
+
+  .headerblock .headerwrapper .website {
+      display: none
+  }
+
+  .headerblock .headerwrapper .mobile {
+      display: block
+  }
+
+  .headerblock .headerwrapper .rightnavigation {
+      float: none;
+      position: absolute;
+      right: 0px;
+      top: 0px
+  }
+
+  .headerblock .headerwrapper .cart {
+      position: relative;
+      right: 0px;
+      padding: 11px
+  }
+
+  .headerblock .headerwrapper .cart img {
+      top: 0px
+  }
+
+  .headerblock .headerwrapper .menus {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      padding: 12px 15px;
+      background: transparent
+  }
+
+  .headerblock .headerwrapper .menus img {
+      top: 0px
+  }
+}

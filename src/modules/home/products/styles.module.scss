@@ -1,0 +1,298 @@
+.index {
+  display: block;
+}
+
+.index h2,
+.index h3 {
+  font-family: "Flame-Bold";
+  color: #8b542f;
+  font-weight: normal;
+}
+
+.index h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.index .contentblock {
+  background-image: url("https://bkdelivery.co.id/static/website/img/BK_bg.jpg?5218847fa211");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  padding-top: 85px;
+}
+
+.contentblock {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px 150px;
+  margin: 50px 0px 0px;
+  display: table;
+  background-color: #f9f4f2;
+  position: relative;
+  top: -120px;
+}
+
+.contentwrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.crownsectionindex {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 13px -8px #6b6b6b;
+  margin: 20px 0 40px;
+  min-width: 200px;
+  background: white;
+  display: none;
+}
+
+.crownsectionindex .crowncontent {
+  padding: 14px 18px;
+  overflow: auto;
+}
+
+.crownsectionindex .customercrown {
+  width: 65%;
+  display: inline-block;
+}
+
+.crownsectionindex .crownintext {
+  position: relative;
+  margin: auto;
+  max-width: 14px;
+}
+
+.crownsectionindex .loginsection {
+  width: auto;
+  display: inline-block;
+  position: relative;
+  float: right;
+  height: auto;
+  width: auto;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.crownsectionindex .loginsection .loginbutton {
+  padding: 14px 24px;
+  background: #ed7801;
+  color: white;
+  font: 15px/15px "Flame-Regular";
+  border-radius: 6px;
+}
+
+.crownsectionindex .logintext {
+  font: 16px/22px "Barlow-Bold";
+  color: #2d2d2d;
+  text-transform: none;
+}
+
+.logintext img {
+  display: inline;
+  margin: 0;
+}
+
+.wonderfulmenus {
+  margin-top: 10px;
+}
+
+.wonderfulmenus button {
+  font-family: "Barlow-Bold";
+}
+
+.wonderfulmenus .twocolumn:nth-child(1n) {
+  text-align: left;
+}
+
+.wonderfulmenus .twocolumn:nth-child(1n) h3 {
+  font-size: 21px;
+}
+
+.clear {
+  clear: both;
+}
+
+.columns {
+  display: block;
+}
+
+.columns .twocolumn,
+.columns .threecolumn,
+.columns .fivecolumn {
+  float: left;
+}
+
+.columns .twocolumn {
+  width: 49%;
+  margin-right: 2%;
+}
+
+.columns .threecolumn {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.columns .fivecolumn {
+  width: 18%;
+  margin-right: 2%;
+}
+
+.columns .twocolumn:nth-child(2n),
+.columns .threecolumn:nth-child(3n),
+.columns .fivecolumn:nth-child(5n) {
+  margin-right: 0;
+}
+
+.menubox {
+  float: left;
+  width: 40%;
+  margin-bottom: 2%;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+}
+
+.menubox img {
+  width: 100%;
+  object-fit: cover;
+}
+
+// .menubox span,.menubox h3 {
+//   font-family: "Barlow-Regular";
+//   color: #000
+// }
+
+.menubox h3,
+.menubox h4 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.menubox h3 {
+  margin: 5px 0;
+}
+
+.menubox h4 {
+  font-family: "Flame-Regular";
+  text-transform: capitalize;
+  font-size: 23px;
+  color: #502314;
+  text-align: left;
+  margin: 5px 0 0 0;
+}
+
+.menubox .buttonadd {
+  float: right;
+  font: 16px/22px "Flame-Regular";
+  padding: 7px 0;
+}
+
+.menuboxwrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menuboxwrapper .menubox {
+  display: grid;
+}
+
+.button {
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .index .content-block {
+    margin-top: 50px;
+  }
+
+  .crownsectionindex {
+    display: block;
+  }
+
+  .menuboxwrapper .menubox {
+    width: 49%;
+    margin-right: 0px;
+    margin-bottom: 2%;
+    display: initial;
+  }
+
+  .menuboxwrapper .menubox:nth-child(2n) {
+    margin-left: 2%;
+  }
+
+  .menuboxwrapper .buttonadd {
+    font-size: 12px;
+    padding: 3px 0px;
+  }
+
+  .menuboxwrapper span {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .menuboxwrapper .directions span {
+    font-size: 12px;
+  }
+
+  .contentblock {
+    padding: 60px 0px 150px;
+    margin-top: 125px;
+  }
+
+  .contentwrapper {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+
+  .wonderfulmenus .twocolumn:nth-child(1n) {
+    width: 100%;
+  }
+
+  .wonderfulmenus .twocolumn:nth-child(1n) .title {
+    text-align: center;
+  }
+
+  .wonderfulmenus .twocolumn:nth-child(2n) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .menuboxwrapper .menubox {
+    display: initial;
+    padding: 5px 5px 10px;
+  }
+
+  .menuboxwrapper h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .menuboxwrapper .directions .price {
+    font-size: 13px;
+  }
+}
